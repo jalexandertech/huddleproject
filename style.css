@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+body{
+    background-image: url("images/bg-mobile.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    
+}
+
+h1, p{
+    color: #ffffff;
+}
+
+.logo{
+    padding: 25px 0px 60px 40px;
+}
+
+.mockups{
+    margin: auto;
+    padding-left: 35px;
+}
+
+
+/* Footer information */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
