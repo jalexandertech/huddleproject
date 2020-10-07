@@ -5,7 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
@@ -13,20 +19,27 @@
 </head>
 
 <body>
-  <header><img class="logo" src="images/logo.svg" alt="huddle-logo" width="150px"></header>
+  <header><img class="logo" src="images/logo.svg" alt="huddle-logo" width="180px"></header>
 
   <main>
     <div class="mockups">
-    <img src="images/illustration-mockups.svg" alt="illustrations-mockups" width="300px">
-  </div>  
-  <div class="content"> 
-    <h1>Build The Community Your Fans Will Love</h1>
+      <img src="images/illustration-mockups.svg" alt="illustrations-mockups" width="300px">
+    </div>
+    <div class="content">
+      <h3>Build The Community Your Fans Will Love</h3>
 
-    <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-      Create connections with your users as you engage in genuine discussion. </p>
+      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+        Create connections with your users as you engage in genuine discussion. </p>
 
-    <button>Register</button>
-  </div>
+      <button type="button" class="btn">Register</button>
+
+      <div class="social">
+        <img class="fb" src="images/logo-facebook.svg" alt="" >
+        <img class="twitter" src="images/logo-twitter.svg" alt="">
+        <img class="insta" src="images/logo-instagram.svg" alt="">
+
+      </div>
+    </div>
   </main>
   <footer>
     <p class="attribution">
@@ -34,6 +47,15 @@
       Coded by <a href="#">Jada Alexander</a>.
     </p>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
