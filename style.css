@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    max-height: 100vh;
+    
 }
 
 body{
@@ -10,6 +10,7 @@ body{
     background-position: top left;
     background-repeat: no-repeat;
     background-color: hsl(257, 40%, 49%);
+    max-height: 100vh;
     
 }
 
@@ -37,8 +38,9 @@ h3{
 }
 p{
     font-family: 'Open Sans', sans-serif;
-    padding: 0px 20px;
+    padding: 10px 28px;
     font-weight: 400;
+
 }
 
 .btn{
@@ -63,8 +65,7 @@ p{
 
 .fb, .twitter, .insta{
     width: 20px;
-   margin-right: 10px;
-   
+   margin-right: 10px; 
 }
 
 
